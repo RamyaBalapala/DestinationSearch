@@ -1,0 +1,32 @@
+.destination-item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+}
+
+.destination-image {
+  height: 200px;
+  width: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  .destination-image {
+    height: 300px;
+    width: 350px;
+  }
+}
+
+.destination-name {
+  color: #000000;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .destination-name {
+    font-size: 24px;
+  }
+}
